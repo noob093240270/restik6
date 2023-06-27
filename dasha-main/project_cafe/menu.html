@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style2.css">
+</head>
+
+<body>
+	<div class="menu">
+		<div class="logo">FOOD</div>
+		<div class="pages">
+			<input type="checkbox" id="active">
+			<label for="active" class="menu-btn"><span></span></label>
+			<label for="active" class="close"></label>
+			<div class="wrapper">
+				<ul>
+					<li><a href="#">Меню</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="#">Бронь столиков</a></li>
+					<li><a href="#">Адреса</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sites">
+			<a href="https://www.instagram.com">
+				<div class="img1"></div>
+			</a>
+			<a href="https://vk.ru">
+				<div class="img2"></div>
+			</a>
+			<a href="https://youtube.ru">
+				<div class="img3"></div>
+			</a>
+		</div>
+	</div>
+	<div class="container-main-screen">
+		<div class="main">
+			<div class="tabs">
+				<div class="tabs__nav">
+				  <button class="tabs__btn tabs__btn_active">Первые блюда</button>
+				  <button class="tabs__btn">Вторые блюда</button>
+				  <button class="tabs__btn">Десерты</button>
+				  <button class="tabs__btn">Напитки</button>
+				  <button class="tabs__btn">Бар</button>
+				</div>
+				<div class="tabs__content">
+				  <div class="tabs__pane tabs__pane_show">
+					Содержимое 1...
+				  </div>
+				  <div class="tabs__pane">
+					Содержимое 2...
+				  </div>
+				  <div class="tabs__pane" id="content-3">
+					Содержимое 3...
+				  </div>
+				  <div class="tabs__pane">
+					Содержимое 4...
+				  </div>
+				  <div class="tabs__pane">
+					Содержимое 5...
+				  </div>
+				</div>
+			  </div>
+		</div>
+		<div class="container-cart">
+			<button class="personal-account"></button>
+			<button class="cart" id="cart">
+				<img src="/products/icons8-cart-32.png" alt="">
+				<div class="cart__num" id="cart_num">0</div>
+			</button>
+		</div>
+	</div>
+	
+</body>
+<script src="./js/script2.js"></script>
+
+</html>
